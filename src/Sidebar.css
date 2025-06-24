@@ -1,0 +1,60 @@
+#side-bar{
+  display: flex;
+  background-color: #8636E9;
+  width: 20vw;
+  height: 100vh;
+  align-items:center;
+  /*text-align: center; */
+
+  padding-block:10vh;
+  padding-inline:5vh;
+  flex-direction: column;
+  gap:7vh;
+
+
+}
+.Side-button{
+  /* padding-bottom: 5vh; */
+  padding-inline:5vw;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  color: #0b080c;
+  font-weight: bold;
+  text-decoration: none;
+
+
+
+
+}
+.hover-underline:hover{
+  color: #99a7c6; /* Tailwind's blue-600 */
+
+}
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+
+}
+.icon-link {
+  color: #9ca3af; /* gray-400 */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+  color: #6b7280; /* gray-500 */
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
