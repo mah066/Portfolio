@@ -1,11 +1,13 @@
 import React from 'react'
 import "./Sidebar.css";
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function Sidebar() {
+
   return (
     <div id="side-bar">
-        <button className='Side-button hover-underline' >Home</button>
-        <a href="\"><button className='Side-button hover-underline'>About</button></a>
+        <Link to="/" className="Side-button hover-underline">Home</Link>
+        <Link to="/about" className="Side-button hover-underline">About</Link>
         <a href="\resume.pdf" target="_blank" rel="noopener noreferrer" className="Side-button hover-underline">
           Resume
         </a>
