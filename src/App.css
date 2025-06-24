@@ -3,57 +3,6 @@
   display: flex;
   flex-direction: row;
 }
-.Home-page{
-  background-color: #EAE8E8;
-  display: flex;
-  flex-direction: column;
-  width: 80vw;
-  height: 100vh;
-  align-items: center;
-  padding-block: 10vh;
-  padding-inline: 20vw;
-}
-.profile-image {
-  width: 150px;         /* adjust size */
-  height: 150px;
-  object-fit: cover;    /* crop and fill */
-  border-radius: 50%;   /* makes it round */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* soft shadow */
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-.profile-image:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-.heading {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #1f2937; /* dark gray (like Tailwind's gray-800) */
-  text-align: center;
-  /* margin-bottom: 1rem; */
-  animation: fadeInSlide 1s ease-in-out;
-  letter-spacing: 1px;
-  padding-top: 7.5vh;
-}
-
-/* Optional animation */
-@keyframes fadeInSlide {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.sub-heading {
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: #374151;
-  margin-top: 1vh;
-}
 
 
 
