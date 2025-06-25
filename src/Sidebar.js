@@ -8,7 +8,7 @@ function Sidebar() {
     <div id="side-bar">
         <Link to="/" className="Side-button hover-underline">Home</Link>
         <Link to="/about" className="Side-button hover-underline">About</Link>
-        <a href="\resume.pdf" target="_blank" rel="noopener noreferrer" className="Side-button hover-underline">
+        <a href={`${process.env.PUBLIC_URL}/resume.pdf`} target="_blank" rel="noopener noreferrer" className="Side-button hover-underline">
           Resume
         </a>
 
