@@ -12,7 +12,7 @@ function Sidebar() {
           Resume
         </a>
 
-        <button className='Side-button hover-underline'>Projects</button>
+        <Link to="/projects" className='Side-button hover-underline'>Projects</Link>
         <button className='Side-button hover-underline' >Contact</button>
 <div className="social-links">
       <a href="https://www.linkedin.com/in/aazim6606/" className="icon-link" target="_blank" rel="noopener noreferrer">

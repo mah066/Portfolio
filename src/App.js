@@ -5,6 +5,7 @@ import profilePic from "./images/profile.jpg"
 import Sidebar from "./Sidebar.js"
 import Home from "./Home.js"
 import About from "./About.js"
+import Projects from "./Projects.js"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
 
         <Route path="/about" element={<About/>}/>
+        <Route path="/projects"element={<Projects/>}/>
       </Routes>
 
 
