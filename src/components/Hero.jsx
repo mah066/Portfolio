@@ -28,9 +28,9 @@ export const Hero = () => {
                         Aspiring Software Engineer passionate about building scalable web applications and exploring AI & Machine Learning to solve complex problems.                    </p>
 
                     <div className="flex flex-wrap gap-4">
-                        <button className="px-6 py-3 bg-primary text-primary-foreground font-medium rounded-full hover:bg-blue-600 transition-colors flex items-center gap-2">
+                        <a href="#projects"><button className="px-6 py-3 bg-primary text-primary-foreground font-medium rounded-full hover:bg-blue-600 transition-colors flex items-center gap-2" >
                             View Projects <ArrowRight size={20} />
-                        </button>
+                        </button></a>
                         <a
                             href="https://drive.google.com/uc?export=download&id=1fdyh1MDSVew0j29RU2eueFDJu_g8GqoH"
                             target="_blank"
