@@ -2,6 +2,7 @@ import React from "react";
 import { SectionWrapper } from "./SectionWrapper";
 import { Github, ExternalLink } from "lucide-react";
 
+
 export const Projects = () => {
     const projects = [
 
@@ -15,7 +16,7 @@ export const Projects = () => {
             live: "#",
             },
             image:
-            "src/assets/Thrifty.png",
+            "/images/Thrifty.png",
         },
         {
             title: "RISC-V Processor Design",
@@ -75,7 +76,7 @@ export const Projects = () => {
             live: null,
             },
             image:
-            "src/assets/asteroid.png",
+            "/images/asteroid.png",
         },
         ];
 

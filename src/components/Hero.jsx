@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Download } from "lucide-react";
 
+
 export const Hero = () => {
     return (
         <section id="hero" className="min-h-screen flex items-center pt-16 relative overflow-hidden">
@@ -56,7 +57,7 @@ export const Hero = () => {
                         <div className="absolute inset-4 bg-gray-900 rounded-full border-2 border-slate-800 flex items-center justify-center overflow-hidden">
                             {/* Placeholder Image */}
                             <img
-                                src="src\assets\profile.jpg"
+                                src="/images/profile.jpg"
                                 alt="Profile"
                                 className="w-full h-full object-cover object-[100%_50%]"
                             />
